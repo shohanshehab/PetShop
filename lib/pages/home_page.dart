@@ -141,7 +141,7 @@ class _HomePageState extends State<HomePage> {
                 child: TextFormField(
                   decoration: InputDecoration(
                       border: InputBorder.none,
-                      hintText: 'Search cat, product, etc ...',
+                      hintText: 'Search pet, product, etc ...',
                       hintStyle:
                           poppin.copyWith(color: deepPurple.withOpacity(0.6)),
                       prefixIcon: const Icon(
@@ -183,7 +183,7 @@ class _HomePageState extends State<HomePage> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    'Best Seller',
+                    'Pets',
                     style: poppin.copyWith(
                         color: black,
                         fontSize: 18,
