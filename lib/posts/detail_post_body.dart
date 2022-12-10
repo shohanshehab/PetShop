@@ -53,7 +53,7 @@ class Body extends StatelessWidget {
                       "\\${product.price}",
                       style:const TextStyle(
                         color: kPrimaryColor,
-                        fontSize: 20, 
+                        fontSize: 26, 
                         fontWeight: FontWeight.bold),
                     ),
 
@@ -62,7 +62,7 @@ class Body extends StatelessWidget {
                 const SizedBox(
                     height: 30,
                   ),
-                  Divider(),
+                  const Divider(),
                   Row(
                   children: const [
                     Text(
@@ -81,13 +81,13 @@ class Body extends StatelessWidget {
                     Text(
                       product.description,textAlign: TextAlign.center,
                       style:const TextStyle(
-                        fontSize: 16, 
+                        fontSize: 26, 
                         ),
                     ),
                     const SizedBox(
                     height: 10,
                   ),
-                  Divider(),
+                  const Divider(),
                   const SizedBox(
                     height: 10,
                   ),

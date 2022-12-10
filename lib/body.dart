@@ -7,6 +7,8 @@ import 'package:pet_shop/posts/post_details_page.dart';
 import 'banner.dart';
 
 class Body extends StatefulWidget {
+  const Body({super.key});
+
   @override
   State<Body> createState() => _BodyState();
 }
@@ -21,11 +23,11 @@ class _BodyState extends State<Body> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           HomeBanner(size: size),
-          SizedBox(
+          const SizedBox(
             height: 20,
           ),
           Row(
-            children: [
+            children: const [
               Text(
                 'New Pets',
                 style: TextStyle(

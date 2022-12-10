@@ -12,7 +12,7 @@ class Body1 extends StatelessWidget {
       body: Container(
         height: double.infinity,
         width: double.infinity,
-        color: Color.fromARGB(255, 19, 168, 51),
+        color: Color.fromARGB(255, 123, 128, 124),
         child: SingleChildScrollView(
           child: Column(
             children: [
@@ -76,7 +76,7 @@ class Body1 extends StatelessWidget {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: ((context) => HomeScreen())));
+                                  builder: ((context) => const HomeScreen())));
                         },
                         child: Container(
                           height: 50,

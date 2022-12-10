@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
           )),
       ),
 
-      home: Body1(),
+      home: const Body1(),
     );
   }
 }

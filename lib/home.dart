@@ -4,6 +4,8 @@ import 'package:pet_shop/constants.dart';
 import 'package:pet_shop/profile.dart';
 
 class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
+
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
@@ -23,13 +25,13 @@ class _HomeScreenState extends State<HomeScreen> {
         centerTitle: true,
         actions: [
           IconButton(icon: const Icon(Icons.search), onPressed: () {}),
-          IconButton(icon: Icon(Icons.shopping_cart), onPressed: () {}),
+          IconButton(icon: const Icon(Icons.shopping_cart), onPressed: () {}),
           const CircleAvatar(
             backgroundColor: kPrimaryColor,
           )
         ],
       ),
-      body: Body(),
+      body: const Body(),
       drawer: Drawer(
         child: ListView(
           children: [
@@ -71,7 +73,7 @@ class _HomeScreenState extends State<HomeScreen> {
             MenuList(
               press: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: ((context) => Profile())));
+                    MaterialPageRoute(builder: ((context) => const Profile())));
                     
               },
               title: 'profile',
