@@ -53,7 +53,7 @@ class Body extends StatelessWidget {
                       "\\${product.price}",
                       style:const TextStyle(
                         color: kPrimaryColor,
-                        fontSize: 26, 
+                        fontSize: 20, 
                         fontWeight: FontWeight.bold),
                     ),
 
@@ -93,10 +93,10 @@ class Body extends StatelessWidget {
                   ),
                   FloatingActionButton(
                     backgroundColor: kPrimaryColor,
-                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-                    onPressed: (){}, child: const Text('order Now',
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(35)),
+                    onPressed: (){}, child: const Text('Buy Now',
                     style: TextStyle(
-                      fontSize: 18,color: Colors.white),
+                      fontSize: 18,color: Color.fromARGB(255, 230, 15, 15)),
                     ),
                   ),
                   ],

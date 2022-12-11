@@ -32,7 +32,7 @@ class HomeBanner extends StatelessWidget {
                 SizedBox(
                   height: 15,
                 ),
-                Text('Check and Pick the right one',
+                Text('Here you can buy pets at lowest price',
                     textAlign: TextAlign.center,
                     style: TextStyle(fontSize: 16)),
               ]),

@@ -43,4 +43,4 @@ List<Product> products = [
     image: "assets/images/cat2.jpg",
   ),
 ];
-String dummydisc = "gfghfhgjjh";
+String dummydisc = "Click the order button and buy your favourite pets";

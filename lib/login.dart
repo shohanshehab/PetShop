@@ -27,7 +27,7 @@ class Body1 extends StatelessWidget {
                     fontWeight: FontWeight.bold),
               ),
               const Text(
-                "Please inter your account",
+                "PetShop",
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 15),
               ),
@@ -84,7 +84,7 @@ class Body1 extends StatelessWidget {
                           decoration: BoxDecoration(
                               color: kPrimaryColor,
                               borderRadius: BorderRadius.circular(10)),
-                          child: const Center(child: Text('Sign up')),
+                          child: const Center(child: Text('Log In')),
                         ))
                   ],
                 ),

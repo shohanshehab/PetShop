@@ -87,7 +87,7 @@ class Profile extends StatelessWidget {
                 ),
                 TextFormField(
                   decoration: InputDecoration(
-                    labelText: "Sex",
+                    labelText: "Gender",
                     enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(20), gapPadding: 4),
                     focusedBorder: OutlineInputBorder(
